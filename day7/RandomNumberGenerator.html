@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script>
+        function generateRandomNumber() {
+            // Generate a random integer between 1 and 26
+            const randomNum = Math.floor(Math.random() * 26) + 1;
+            document.getElementById('random-result').textContent = randomNum;
+        }
+    </script>
+</head>
+
+<body>
+
+    <h1 id="external">hello</h1>
+    <button onclick="generateRandomNumber()">Generate Random Number (1-26)</button>
+    <p>Random Number: <span id="random-result">-</span></p>
+
+</body>
+
+</html>
