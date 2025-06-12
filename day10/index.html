@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* vh and vw are viewport height and viewport width respectively. */
+        .box {
+            /* height: 100vh; */
+            width: 100vw;
+            /* height: 500px; */
+            /* width: 500px; */
+            height: 48px;
+            border: 1px solid red;
+        }
+
+        .main-layout {
+            border: 2px solid black;
+            display: flex;
+        }
+
+        .left-side {
+            width: 200px;
+            border: 1px solid purple;
+            height: calc(100vh - 48px);
+            /* height: 100vh; */
+        }
+
+        .right-side {
+            width: 100%;
+            border: 2px solid green;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <h2>Today we'll learn about Css Dimensions</h2> -->
+    <!-- navbar code -->
+    <section class="box">
+    </section>
+
+    <section class="main-layout">
+        <div class="left-side">Left side</div>
+        <div class="right-side">Right side</div>
+    </section>
+
+
+</body>
+
+</html>
