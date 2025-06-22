@@ -1,2 +1,2 @@
 console.log(x);
-let x = 5;
+var x = 5;
