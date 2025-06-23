@@ -3,8 +3,6 @@
 // functino body, here sayHello is fn name
 function sayHello() {
   console.log("Hello, World!");
-  //
-  //
 }
 console.log("Hi");
 
