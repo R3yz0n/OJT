@@ -5,6 +5,8 @@ function sum(a, b) {
   //   for (let i = 0; i < 10000000000; i++) {}
   console.log(a + b);
 }
+// sum(1, 2, function () {});
+
 function difference(a, b) {
   console.log(a - b);
 }

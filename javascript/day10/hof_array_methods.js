@@ -1,4 +1,5 @@
-// numbers.forEach();
+// Higher Order Functions (HOF) - Array Methods
+// numbers.forEach(); just to iterate over the array
 // numbers.map();
 // numbers.filter();
 // numbers.reduce();
@@ -6,15 +7,31 @@
 // numbers.some();
 // numbers.find();
 
+// numbers is a arrray variable
+
 let numbers = [3, 4, 1, 2, 3];
 
-// for (let i = 0; i < numbers.length; i++) {
-//   if (numbers[i] % 2 == 0) console.log(numbers[i]);
-// }
+// anonymous callback arrow function
+numbers.forEach((eachElem, index) => {
+  // console.log("callback ran");
+  // console.log(eachElem);
 
-// Higher Order array methods
-
-// anonymous arrow callback function
-numbers.forEach(() => {
-  console.log("Hello World");
+  console.log(index);
 });
+
+// Capitalize names
+// Given ["alice", "bob", "charlie"], return ["ALICE", "BOB", "CHARLIE"]
+// using map().
+
+// Filter even numbers
+// From [1, 2, 3, 4, 5, 6], return only even numbers using filter().
+
+// Filter adults
+// js
+// Copy
+// Edit
+// const people = [
+//   { name: "Tom", age: 16 },
+//   { name: "Sara", age: 21 },
+//   { name: "John", age: 18 },
+// ];
