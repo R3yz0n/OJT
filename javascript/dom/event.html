@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button id="btn">
+        Click here
+    </button>
+</body>
+
+<script>
+    // Click event, change (input tag), submit (form tag)
+    let btn = document.getElementById("btn");
+    // first parameter is the string event type, 
+    // second is the anonymous callback function
+    btn.addEventListener('click', () => {
+        // console.log("Button clicked");
+        document.body.style.backgroundColor = "red";
+        // send a https request to the server
+
+    })
+
+
+
+</script>
+
+</html>
