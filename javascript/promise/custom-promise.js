@@ -35,6 +35,7 @@ fetchTheDataFromServer()
     console.error("Error:", error);
   });
 
+// 10seconds
 fetchTheDataFromServer2()
   .then((response) => {
     console.log(response);
